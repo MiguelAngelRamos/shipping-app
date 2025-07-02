@@ -5,7 +5,7 @@ package cl.kibernumacademy;
  * según el peso del paquete  y si es frágil
  */
 public class ShippingCostService {
-  
+
   public double calcularCosto(double peso, boolean fragil) {
     double tarifaBase;
     // - Paquetes hasta 1 kg: tarifa base $5
